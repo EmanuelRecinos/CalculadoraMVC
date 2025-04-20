@@ -33,6 +33,6 @@ public class CalculadoraTest {
 
     @Test(expected = ArithmeticException.class)
     public void testDividirPorCero() {
-        calculadora.dividir(5, 0);  // Esto debería lanzar una ArithmeticException
+        calculadora.dividir(5, 0);
     }
 }
